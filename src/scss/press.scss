@@ -3,15 +3,22 @@
         font-size: 70px;
         font-weight: 600;
     }
+    &.h2 {
+        font-size: 50px;
+        font-weight: 600;
+    }
     &.p {
         font-size: 24px;
         line-height: 48px;
+    }
+    &.p-black {
+        font-size: 24px;
+        font-weight: 600;
     }
     &.p-small {
         color: rgba(20, 16, 36, 0.7);
         font-size: 18px;
         font-weight: 400;
-        text-align: left;
         line-height: 30px;
     }
     &.span {
@@ -22,7 +29,6 @@
         color: #d52027;
         font-size: 70px;
         font-weight: 600;
-        text-align: left;
         line-height: 112px;
     }
 }

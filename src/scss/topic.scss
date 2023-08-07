@@ -8,7 +8,6 @@
             margin-bottom: 20px;
         }
         p {
-            text-align: left;
             margin-bottom: 50px;
         }
     }
@@ -16,12 +15,12 @@
         position: relative;
     }
     &__circle {
-        height: 800px;
-        width: 800px;
+        height: 1000px;
+        width: 1000px;
         border-radius: 50%;
         border: 80px solid #fff;
-        top: 200px;
-        right: -150px;
+        top: 150px;
+        right: -250px;
         position: absolute;
         z-index: 10;
     }
