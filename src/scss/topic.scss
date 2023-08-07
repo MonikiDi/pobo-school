@@ -1,0 +1,37 @@
+.topic {
+    padding-top: 85px;
+    height: 100vh;
+    background: #141024;
+    &__heading {
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: left;
+            margin-bottom: 50px;
+        }
+    }
+    .topic__img-wrapper {
+        position: relative;
+    }
+    &__circle {
+        height: 800px;
+        width: 800px;
+        border-radius: 50%;
+        border: 80px solid #fff;
+        top: 200px;
+        right: -150px;
+        position: absolute;
+        z-index: 10;
+    }
+    &__img {
+        width: 100%;
+        background-image: url('../img/topic.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        right: -150px;
+        z-index: 100;
+    }
+}

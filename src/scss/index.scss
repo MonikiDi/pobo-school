@@ -1,2 +1,14 @@
-// Import all of Bootstrap's CSS
-@import 'bootstrap/scss/bootstrap';
+@import 'vendor/custom-bootsrap';
+@import 'fonts';
+@import 'press';
+@import 'button';
+@import 'header';
+@import 'topic';
+body {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
